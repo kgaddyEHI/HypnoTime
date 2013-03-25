@@ -9,6 +9,19 @@
 #import "TimeViewController.h"
 
 @implementation TimeViewController
+-(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)bundle
+{
+    self=[super initWithNibName:nil bundle:nil];
+    if(self)
+    {
+        UITabBarItem *tbi = [self tabBarItem];
+        [tbi setTitle:@"Time"];
+        
+        UIImage *i = [UIImage imageNamed:@"Time.png"];
+        [tbi setImage:i];
+    }
+    return self;
+}
 -(IBAction)showCurrentTime:(id)sender
 {
     NSDate *now = [NSDate date];
