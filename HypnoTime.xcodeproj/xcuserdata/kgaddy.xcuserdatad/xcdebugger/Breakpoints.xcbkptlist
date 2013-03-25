@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "HypnoTime/TimeViewController.m"
-         timestampString = "385933374.273972"
+         timestampString = "385934359.822146"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "27"
-         endingLineNumber = "27"
+         startingLineNumber = "32"
+         endingLineNumber = "32"
          landmarkName = "-showCurrentTime:"
          landmarkType = "5">
       </FileBreakpoint>

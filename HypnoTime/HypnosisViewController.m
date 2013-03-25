@@ -29,6 +29,11 @@
     }
       return self;
 }
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+    NSLog(@"Hypno controller loaded");
+}
 -(void)loadView
 {
     //create a view

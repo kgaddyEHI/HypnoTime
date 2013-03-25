@@ -22,6 +22,11 @@
     }
     return self;
 }
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+    NSLog(@"time controller loaded");
+}
 -(IBAction)showCurrentTime:(id)sender
 {
     NSDate *now = [NSDate date];
