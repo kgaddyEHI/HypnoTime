@@ -10,9 +10,7 @@
 #import "HypnosisViewController.h"
 #import "TimeViewController.h"
 
-
 @implementation HypnoAppDelegate
-
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
