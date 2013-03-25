@@ -16,6 +16,8 @@
 		4B186E441700C88E00449602 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B186E431700C88E00449602 /* Default.png */; };
 		4B186E461700C88E00449602 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B186E451700C88E00449602 /* Default@2x.png */; };
 		4B186E481700C88F00449602 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B186E471700C88F00449602 /* Default-568h@2x.png */; };
+		4B186E501700CA8100449602 /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B186E4F1700CA8100449602 /* HypnosisViewController.m */; };
+		4B186E531700CB0800449602 /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B186E521700CB0800449602 /* HypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		4B186E431700C88E00449602 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4B186E451700C88E00449602 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4B186E471700C88F00449602 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4B186E4E1700CA8100449602 /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
+		4B186E4F1700CA8100449602 /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisViewController.m; sourceTree = "<group>"; };
+		4B186E511700CB0800449602 /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisView.h; sourceTree = "<group>"; };
+		4B186E521700CB0800449602 /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,10 @@
 			children = (
 				4B186E401700C88E00449602 /* HypnoAppDelegate.h */,
 				4B186E411700C88E00449602 /* HypnoAppDelegate.m */,
+				4B186E4E1700CA8100449602 /* HypnosisViewController.h */,
+				4B186E4F1700CA8100449602 /* HypnosisViewController.m */,
+				4B186E511700CB0800449602 /* HypnosisView.h */,
+				4B186E521700CB0800449602 /* HypnosisView.m */,
 				4B186E381700C88E00449602 /* Supporting Files */,
 			);
 			path = HypnoTime;
@@ -167,6 +177,8 @@
 			files = (
 				4B186E3E1700C88E00449602 /* main.m in Sources */,
 				4B186E421700C88E00449602 /* HypnoAppDelegate.m in Sources */,
+				4B186E501700CA8100449602 /* HypnosisViewController.m in Sources */,
+				4B186E531700CB0800449602 /* HypnosisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
